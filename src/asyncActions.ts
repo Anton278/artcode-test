@@ -1,7 +1,6 @@
 import {
     getSelectedOptionsT,
     ParseLinkResponse,
-    Services,
     getServicesT,
     getBrandsT,
     CustomResponse,
@@ -38,7 +37,7 @@ export const getServices: getServicesT = async (
 ): Promise<void> => {
     const url = "https://onboarding.art-code.team/api/test/v1/search/terms";
     const response: Response = await fetch(url);
-    const result: Services = await response.json();
+    const result: CustomResponse = await response.json();
 
     setServices(result.data);
     setServiceValue(result.data[0].slug);
