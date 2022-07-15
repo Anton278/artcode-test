@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/artcode-test/static/css/main.09be9d91.css",
+    "main.js": "/artcode-test/static/js/main.e548a659.js",
+    "index.html": "/artcode-test/index.html",
+    "main.09be9d91.css.map": "/artcode-test/static/css/main.09be9d91.css.map",
+    "main.e548a659.js.map": "/artcode-test/static/js/main.e548a659.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09be9d91.css",
+    "static/js/main.e548a659.js"
+  ]
+}
